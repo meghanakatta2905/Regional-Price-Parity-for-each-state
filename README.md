@@ -59,8 +59,7 @@ RStudio, Git, GitHub
 ⸻
 
 🎯 How to Use
-	1.	Clone the repo:
-git clone https://github.com/your-username/regional-price-parity.git
+	1.	Clone the repo
 	2.	Open the R scripts or .Rmd files in RStudio
 	3.	Install dependencies if needed:
 install.packages(c('ggplot2', 'dplyr', 'tidyr', 'corrplot', 'heatmaply'))
