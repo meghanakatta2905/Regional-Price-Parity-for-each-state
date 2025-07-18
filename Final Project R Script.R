@@ -9,7 +9,7 @@ library(reshape2)
 install.packages("corrplot")
 
 # Bargraph to visualize the Regional Price Parity by each state:
-data <- read.csv("/Users/aakashboenal/Downloads/RPP.csv")
+data <- read.csv("/Users/Meghanakatta/Downloads/RPP.csv")
 ggplot(data, aes(x=reorder(States, RPP), y=RPP, fill=RPP)) +
   geom_bar(stat="identity") +
   scale_fill_gradient(low="#ffcccc", high="#660000") +
